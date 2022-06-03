@@ -79,6 +79,19 @@ li{
     display: inline-block;
     width: 30%;
 }
+.terciario label{
+    color: white; font-size: 15px;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    width: 60%;
+    padding: 2%;
+
+}
+.terciario div img{
+    width: 100%;
+    margin-bottom: 2em;
+}
 a{
     color: white; font-size: 18px;background-color: gray;
 }
