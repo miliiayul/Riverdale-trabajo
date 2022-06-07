@@ -56,7 +56,7 @@ p{
 }
 h2{
     color: white; font-size: 40px;
-    padding-left: 20%;
+    padding-left: 40%;
     padding-top: 2%;
 
 }
@@ -66,7 +66,7 @@ h2{
     padding-top: 2%;
 }
 .redes{
-    padding-left: 25%;
+    padding-left: 35%;
     padding-top: 1%;
 }
 h3{
@@ -78,6 +78,7 @@ li{
     color: white; font-size: 16px;
     display: inline-block;
     width: 30%;
+    padding-left: 10%;
 }
 .parrafocontacto{
     padding-left: 3%;
@@ -92,13 +93,14 @@ li{
     text-align: center;
     width: 100%;
     padding: 2%;
-    padding-left: 8%;
+    padding-left: 20%;
      vertical-align: middle;
     display: inline-block;
     align-items: center;
     padding-left: 5%;
-    padding-top: 7%
+    padding-top: 15%;
      color: white; font-size: 20px;
+     margin: 3%;
 
 
 }
@@ -109,6 +111,10 @@ li{
 a{
     color: white; font-size: 18px;background-color: black;
 
+}
+button {
+    
+    padding-left:20%;
 }
 
 .ib-nav{
@@ -144,7 +150,7 @@ footer li a {
     padding left: 20%;
 }
 body img {
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 0%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -156,6 +162,11 @@ article a img {
     display: inline-block;
     padding-left: 0%;
     width: 15%;
+}
+.personajes {
+    color: white; font-size: 70px;
+  padding-left: 20%;
+   margin-bottom: 30px;
 }
 .titulo1{
     padding-left: 12%;
@@ -173,9 +184,9 @@ article a img {
     width: 100%;
     display: inline-block;
     align-items: center;
-    padding-left: 7%;
-    padding-top: 1%
+    padding-left: 5%;
      color: white; font-size: 30px;
+     padding-top: 13%;
 
 
       
@@ -187,7 +198,7 @@ article a img {
     display: inline-block;
     align-items: center;
     padding-left: 7%;
-    padding-top: 1%
+    padding-top: 18%;
      color: white; font-size: 30px;
      float: left;
 }
@@ -196,8 +207,8 @@ article a img {
     width: 70%;
     display: inline-block;
     align-items: center;
-    padding-left: 20%;
-    padding-top: 2%
+    padding-left: 7%;
+    padding-top: 16%;
     color: white; font-size: 30px;
    
 }
@@ -206,8 +217,8 @@ article a img {
     width: 70%;
     display: inline-block;
     align-items: center;
-    padding-left: 20%;
-    padding-top: 2%
+    padding-left: 7%;
+    padding-top: 16%;
      color: white; font-size: 30px;
 }
 .parrafo4 {
@@ -215,8 +226,8 @@ article a img {
     width: 70%;
     display: inline-block;
     align-items: center;
-    padding-left: 20%;
-    padding-top: 2%
+    padding-left: 7%;
+    padding-top: 16%;
      color: white; font-size: 30px;
 }
 .parrafo5 {
@@ -224,8 +235,8 @@ article a img {
     width: 70%;
     display: inline-block;
     align-items: center;
-    padding-left: 20%;
-    padding-top: 2%
+    padding-left: 7%;
+    padding-top: 13%;
      color: white; font-size: 30px;
 }
 .parrafo6 {
@@ -233,8 +244,8 @@ article a img {
     width: 70%;
     display: inline-block;
     align-items: center;
-    padding-left: 20%;
-    padding-top: 2%
+    padding-left: 7%;
+    padding-top: 8%;
      color: white; font-size: 30px;
 }
 .parra1 {
@@ -326,62 +337,110 @@ article a img {
 
 }
 .imagen1{
-    width: 95%;
+    width: 100%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
      margin-top: 4%;
-     margin-left: 2%;
+    padding-left: 0%;
 
 }
 .img1{
-    width: 40%;
+    width: 35%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
-     margin-top: 4%;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+.div1{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
      margin-left: 2%;
    
 }
-.img2 {
-    width: 40%;
+.img2{
+    width: 35%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
-     margin-top: 4%;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+.div2 {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
      margin-left: 2%;
     
 }
 .img3 {
-    width: 40%;
+    width: 35%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
-     margin-top: 4%;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+.div3 {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
      margin-left: 2%;
 }
 .img4 {
-    width: 40%;
+    width: 35%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
-     margin-top: 4%;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+.div4 {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
      margin-left: 2%;
 }
 .img5 {
-    width: 40%;
+    width: 35%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
-     margin-top: 4%;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+.div5 {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
      margin-left: 2%;
 }
 .img6 {
-    width: 40%;
+    width: 35%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
-     margin-top: 4%;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+.div6 {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
      margin-left: 2%;
 }
 .sipnosis2 {
