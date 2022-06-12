@@ -58,7 +58,6 @@ h2{
     color: white; font-size: 40px;
     padding-left: 40%;
     padding-top: 2%;
-
 }
 .riverdale{
       color: white; font-size: 45px;
@@ -203,10 +202,6 @@ article a img {
     padding-left: 5%;
      color: white; font-size: 30px;
      padding-top: 13%;
-
-
-      
-
 }
 .parrafo1{
      vertical-align: top;
@@ -490,16 +485,16 @@ nav article div li a {display: none;}
     padding-left: 8%;
     padding-top: 2%;
 }
-.parrafo1{
-     vertical-align: top;
-    width: 50%;
+.parrafos1{
+    vertical-align: top;
+    width: 70%;
     display: inline-block;
     align-items: center;
-    padding-left: 2%;
-    padding-top: 5%;
+    padding-left: 5%;
      color: white; font-size: 15px;
-     float: left;
+     padding-top: 13%;
 }
+
 .imagen1{
     width: 100%;
     vertical-align: middle;
@@ -511,7 +506,7 @@ nav article div li a {display: none;}
     padding-bottom: 2%;
 }
 img{
-    width: 50%;
+    width: 60%;
      justify-content: center; 
 }
 .titulo1{
@@ -605,6 +600,11 @@ img{
     color: white; font-size: 30px;
   padding-left: 8%;
    margin-bottom: 30px;
+}
+h2{
+    color: white; font-size: 20px;
+    padding-left: 40%;
+    padding-top: 2%;
 }
 .parrafo1{
      vertical-align: top;
