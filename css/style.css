@@ -26,9 +26,11 @@ ul div li a {
     text-decoration: none;
 }
 .menu{
-     width: 15%;
-    display: inline-block;
+    width: 15%;
+    text-decoration: none;
+    text-decoration-line: none;
 }
+
 
 
 head img{
@@ -41,6 +43,14 @@ head img{
 }
 body {
     padding-left: 10%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+body article ul div li a {
+    padding-left: 15%;
     padding-right: 7%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -69,8 +79,8 @@ h2{
     padding-top: 1%;
 }
 h3{
-    color: white; font-size: 30px;
-    padding-left: 3%;
+    color: white; font-size: 34px;
+    padding-left: 25%;
     padding-top: 2%;
 }
 li{
@@ -119,9 +129,38 @@ li{
     padding-top: 3%;
      color: white; font-size: 20px;
      margin: 3%;
-
-
 }
+.footer{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
+     margin-left: 0%;
+}
+.Milagros{
+     vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0%;
+    padding-top: 5%;
+     color: white; font-size: 18px;
+     float: left;
+     font-style: italic;
+}
+.fecha{
+     vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0%;
+    padding-top: 5%;
+     color: white; font-size: 18px;
+     float: left;
+     font-style: italic;
+}
+
 .terciario div img{
     width: 100%;
     margin-bottom: 2em;
@@ -190,7 +229,7 @@ article a img {
     padding-left: 8%;
 }
 .galeria{
-    padding-left: 8%;
+    padding-left: 1%;
     font-size: 60px;
 }
 
@@ -209,7 +248,7 @@ article a img {
     display: inline-block;
     align-items: center;
     padding-left: 2%;
-    padding-top: 5%%;
+    padding-top: 2%;
      color: white; font-size: 30px;
      float: left;
 }
@@ -478,12 +517,41 @@ article a img {
     display: none;
 }
 @media (max-width: 480px) {
-nav article div li a {display: none;}
-.icon{ float: right; display: block; }
+nav article ul li a {display: none;}
+.icon{ float: left; display: block; text-align: right;}
+nav article, nav a{
+    flex: 1 0 50%;
+}
+nav article {
+    flex-basis: 100%;
+}
+nav article ul li a {
+    display: none;
+}
+nav.responsive ul {
+    display: block;
+    width: 100%;
+}
+nav.responsive article ul li a{
+    display: block;
+}
+.imagen{
+    padding-left: 0%;
+    padding-top: 0%;
+    width: 40%;
+}
+.menu{
+     width: 15%;
+    display: flex;
+    padding-left: 75%;
+    text-align: right;
+
+
+}
 .riverdale{
       color: white; font-size: 30px;
     padding-left: 8%;
-    padding-top: 2%;
+    padding-top: 8%;
 }
 .parrafos1{
     vertical-align: top;
@@ -491,10 +559,12 @@ nav article div li a {display: none;}
     display: inline-block;
     align-items: center;
     padding-left: 5%;
-     color: white; font-size: 18px;
+     color: white; font-size: 25px;
      padding-top: 13%;
 }
-
+.imagenriv{
+    width: 55%;
+}
 .imagen1{
     width: 100%;
     vertical-align: middle;
@@ -506,7 +576,7 @@ nav article div li a {display: none;}
     padding-bottom: 2%;
 }
 img{
-    width: 60%;
+    width: 55%;
      justify-content: center; 
 }
 .titulo1{
@@ -591,11 +661,7 @@ img{
     padding-top: 5%;
     padding-left: 25%;
 }
-.imagen{
-    padding-left: 0%;
-    padding-top: 0%;
-    width: 40%;
-}
+
 .personajes {
     color: white; font-size: 30px;
   padding-left: 8%;
@@ -787,19 +853,20 @@ h2{
     font-size: 30px;
 }
 h3{
-    color: white; font-size: 20px;
-    padding-left: 3%;
+    color: white; font-size: 25px;
+    padding-left: 8%;
     padding-top: 2%;
 }
 article a img {
     display: inline-block;
     padding-left: 0%;
-    width: 31%;
+    width: 38%;
+    padding-right: 0%
 }
 .parrafocontacto{
-    padding-left: 8%;
-    color: white; font-size: 15px;
-     width: 70%;
+    padding-left: 6%;
+    color: white; font-size: 17px;
+     width: 100%;
      display: inline-block;
     align-items: center;
     padding-top: 2%;
@@ -819,11 +886,11 @@ article a img {
 }
 .imagencontacto {
     padding-left: 3%;
-    width: 10%;
+    width: 58%;
 }
 
 .terciario label{
-    color: white; font-size: 15px;
+    color: white; font-size: 20px;
     margin-top: 5%;
     text-align: center;
     width: 100%;
@@ -839,5 +906,38 @@ article a img {
 
 
 }
-
+.terciario div img{
+    width: 55%;
+    margin-bottom: 2em;
+}
+.footer{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
+     margin-left: 0%;
+}
+.Milagros{
+     vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0%;
+    padding-top: 5%;
+     color: white; font-size: 15px;
+     float: left;
+     font-style: italic;
+}
+.fecha{
+     vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0%;
+    padding-top: 5%;
+     color: white; font-size: 15px;
+     float: left;
+     font-style: italic;
+}
 }

@@ -14,15 +14,15 @@
      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
         </a>
-  <nav>
+  <nav id="navegador">
         <article>
         <ul>
-            <div class="menu"><li><a href="index.html">Inicio</a></li></div>
-        <div class="menu"><li><a href="información.html">Información</a></li></div>
-        <div class="menu"><li><a href="Personajes.html">Personajes</a></li></div>
-        <div class="menu"><li><a href="Sipnosis.html">Sipnosis</a></li></div>
-        <div class="menu"><li><a href="Galería.html">Galería</a></li></div>
-        <div class="menu"><li><a href="contacto.html">Contacto</a></li></div>
+            <li class="menu"><a href="index.html">Inicio</a></li>
+       <li class="menu"><a href="información.html">Información</a></li>
+        <li class="menu"><a href="Personajes.html">Personajes</a></li>
+        <li class="menu"><a href="Sipnosis.html">Sipnosis</a></li>
+       <li class="menu"><a href="Galería.html">Galería</a></li>
+        <li class="menu"><a href="contacto.html">Contacto</a></li>
         </ul>
     </article>
         </nav>  
@@ -118,11 +118,25 @@
                        </div>
            <h3 class="redes">Redes Sociales:</h3> 
 </body>
+<script type="text/javascript">
+  function myFunction(){
+    let x = document.getElementById('navegador');
+    if (x.className !== 'responsive') {
+      x.className = 'responsive';
+    } else {
+      x.className = '';
+    }
+  }
+</script>
 <footer>
   
   
   <li><a href="https://www.instagram.com/thecwriverdale/?hl=es"></a>Instagram</li>
    <li><a href="https://www.netflix.com/search?q=river&jbv=80133311"></a>Netflix</li>
    <li><a href="https://www.tiktok.com/@rivervale"></a>TikTok</li> 
+   <div class="footer">
+  <p class="Milagros">Creado por Milagros Ayul.</p>
+   <p class="fecha"> Fecha de creacion: 15/06/2021</p>
+   </div>
 </footer>
 </html>
