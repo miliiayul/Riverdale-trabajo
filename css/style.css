@@ -557,20 +557,20 @@ nav.responsive article ul li a{
 }
 .parrafos1{
     vertical-align: top;
-    width: 70%;
-    display: inline-block;
+    width: 100%;
+    display: flex;
     align-items: center;
     padding-left: 5%;
      color: white; font-size: 25px;
      padding-top: 13%;
 }
 .imagenriv{
-    width: 55%;
+    width: 100%;
 }
 .imagen1{
     width: 100%;
     vertical-align: middle;
-    display: flex;
+    display: block;
     justify-content: center;
      margin-top: 0%;
     padding-left: 0%;
@@ -665,27 +665,28 @@ img{
 }
 
 .personajes {
-    color: white; font-size: 30px;
+    color: white; font-size: 50px;
   padding-left: 8%;
    margin-bottom: 30px;
 }
 h2{
-    color: white; font-size: 20px;
-    padding-left: 40%;
+    color: white; font-size: 40px;
+    padding-left: 5%;
     padding-top: 6%;
+    display: inline-block;
 }
 .parrafo1{
      vertical-align: top;
-    width: 50%;
+    width: 100%;
     display: inline-block;
     align-items: center;
     padding-left: 2%;
     padding-top: 5%;
-     color: white; font-size: 15px;
+     color: white; font-size: 25px;
      float: left;
 }
 .img1{
-    width: 50%;
+    width: 80%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
@@ -695,49 +696,53 @@ h2{
 .div1{
     width: 100%;
     vertical-align: middle;
-    display: flex;
+    display: block;
     justify-content: center;
      margin-top: 0%;
      margin-left: 2%;
    
 }
 .parrafo2 {
-     vertical-align: middle;
-    width: 50%;
-    display: inline-block;
-    align-items: center;
-   padding-left: 2%;
-    padding-top: 1,5%;
-    color: white; font-size: 15px;
-}
-.img2{
-    width: 50%;
-    vertical-align: middle;
-    display: flex;
-    justify-content: center;
-     margin-top: 0%;
-     margin-left: 2%;
-}
-.div2 {
+      vertical-align: top;
     width: 100%;
-    vertical-align: middle;
-    display: flex;
-    justify-content: center;
-     margin-top: 0%;
-     margin-left: 2%;
-    
-}
-.parrafo3 {
-     vertical-align: middle;
-    width: 50%;
     display: inline-block;
     align-items: center;
     padding-left: 2%;
-    padding-top: 1,5%;
-     color: white; font-size: 15px;
+    padding-top: 5%;
+     color: white; font-size: 25px;
+     float: left;
+}
+.div2{
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    justify-content: center;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+.img2{
+   width: 80%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+     margin-top: 0%;
+     margin-left: 2%;
+}
+
+
+
+.parrafo3 {
+      vertical-align: top;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    padding-left: 2%;
+    padding-top: 5%;
+     color: white; font-size: 25px;
+     float: left;
 }
 .img3 {
-    width: 50%;
+    width: 80%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
@@ -745,24 +750,25 @@ h2{
      margin-left: 2%;
 }
 .div3 {
-    width: 100%;
+   width: 100%;
     vertical-align: middle;
-    display: flex;
+    display: inline-block;
     justify-content: center;
      margin-top: 0%;
      margin-left: 2%;
 }
 .parrafo4 {
-     vertical-align: middle;
-    width: 50%;
+      vertical-align: top;
+    width: 100%;
     display: inline-block;
     align-items: center;
-   padding-left: 2%;
-    padding-top: 1,5%;
-     color: white; font-size: 15px;
+    padding-left: 2%;
+    padding-top: 5%;
+     color: white; font-size: 25px;
+     float: left;
 }
 .img4 {
-    width: 50%;
+    width: 80%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
@@ -770,24 +776,25 @@ h2{
      margin-left: 2%;
 }
 .div4 {
-    width: 100%;
+   width: 100%;
     vertical-align: middle;
-    display: flex;
+    display: inline-block;
     justify-content: center;
      margin-top: 0%;
      margin-left: 2%;
 }
 .parrafo5 {
-     vertical-align: middle;
-    width: 50%;
+      vertical-align: top;
+    width: 100%;
     display: inline-block;
     align-items: center;
     padding-left: 2%;
-    padding-top: 1,5%;
-     color: white; font-size: 15px;
+    padding-top: 5%;
+     color: white; font-size: 25px;
+     float: left;
 }
 .img5 {
-    width: 50%;
+    width: 80%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
@@ -795,24 +802,25 @@ h2{
      margin-left: 2%;
 }
 .div5 {
-    width: 100%;
+   width: 100%;
     vertical-align: middle;
-    display: flex;
+    display: inline-block;
     justify-content: center;
      margin-top: 0%;
      margin-left: 2%;
 }
 .parrafo6 {
-     vertical-align: middle;
-    width: 50%;
+     vertical-align: top;
+    width: 100%;
     display: inline-block;
     align-items: center;
     padding-left: 2%;
-    padding-top: 1,5%;
-     color: white; font-size: 15px;
+    padding-top: 5%;
+     color: white; font-size: 25px;
+     float: left;
 }
 .img6 {
-    width: 50%;
+   width: 80%;
     vertical-align: middle;
     display: flex;
     justify-content: center;
@@ -820,25 +828,25 @@ h2{
      margin-left: 2%;
 }
 .div6 {
-    width: 100%;
+   width: 100%;
     vertical-align: middle;
-    display: flex;
+    display: inline-block;
     justify-content: center;
      margin-top: 0%;
      margin-left: 2%;
 }
 .titulosip {
     padding-left: 8%;
-    font-size: 30px;
+    font-size: 35px;
 }
 .sipnosis {
   vertical-align: middle;
-    width: 70%;
+    width: 100%;
     display: inline-block;
     align-items: center;
     padding-left: 8%;
     padding-top: 2%
-     color: white; font-size: 15px;   
+     color: white; font-size: 20px;   
 }
 .sipnosis2 {
     padding-left: 5%;
